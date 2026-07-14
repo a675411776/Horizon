@@ -188,11 +188,23 @@
     "ai_score_threshold": 7.0,
     "time_window_hours": 24,
     "category_groups": {
-      "GitHub 热门": ["github-trending"],
-      "AI 前沿": ["ai", "ai-lab", "ai-newsletter", "ai-infra", "ai-cn"],
-      "科技互联网": ["tech", "tech-cn"]
+      "github": {
+        "name": "GitHub 热门",
+        "limit": 10,
+        "categories": ["github-trending"]
+      },
+      "ai": {
+        "name": "AI 前沿",
+        "limit": 15,
+        "categories": ["ai", "ai-lab", "ai-newsletter", "ai-infra", "ai-cn"]
+      },
+      "tech": {
+        "name": "科技互联网",
+        "limit": 10,
+        "categories": ["tech", "tech-cn"]
+      }
     },
-    "default_group": "其他"
+    "default_group": "other"
   },
   "webhook": {
     "enabled": true,
