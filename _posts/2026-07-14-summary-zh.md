@@ -5,359 +5,460 @@ date: 2026-07-14
 lang: zh
 ---
 
-> 从 75 条内容中筛选出 16 条重要资讯。
+> 从 195 条内容中筛选出 21 条重要资讯。
 
 ---
 
-1. [无需 Xcode 构建和发布 Apple 应用指南](#item-1) ⭐️ 8.0/10
-2. [苹果 SpeechAnalyzer 在速度和流式传输上超越 Whisper](#item-2) ⭐️ 8.0/10
-3. [Telegram 的 t.me 域名被 .me 注册局暂停](#item-3) ⭐️ 8.0/10
-4. [思维链是扩展陷阱？转向潜在推理](#item-4) ⭐️ 8.0/10
-5. [在 Qwen3-4B 上评估 J 空间熵作为错误预测器](#item-5) ⭐️ 8.0/10
-6. [Sega CD 版 Silpheed 如何用 FMV 模拟 3D 图形](#item-6) ⭐️ 7.0/10
-7. [在 GitHub Actions 中使用 UV\_EXCLUDE\_NEWER 缓存 uvx 工具](#item-7) ⭐️ 7.0/10
-8. [DOOMQL：由 SQLite 和 GPT-5.6 Sol 驱动的类 Doom 游戏](#item-8) ⭐️ 7.0/10
-9. [大衍科技用合成数据造触觉大模型](#item-9) ⭐️ 7.0/10
-10. [逐际动力完成 2 亿美元 Pre-IPO 融资，估值 150 亿](#item-10) ⭐️ 7.0/10
-11. [苹果前员工利用罕见漏洞窃取文件后跳槽 OpenAI](#item-11) ⭐️ 7.0/10
-12. [洛杉矶警察局因公民自由问题终止与 Flock 的合同](#item-12) ⭐️ 7.0/10
-13. [Anthropic 的人工智能发现：关于痛苦和意识主张的局限性](#item-13) ⭐️ 7.0/10
-14. [提示工程论文被 ICML 接收引发争议](#item-14) ⭐️ 7.0/10
-15. [GPUHedge 将冷启动 p95 延迟从 117 秒降至 30 秒](#item-15) ⭐️ 7.0/10
-16. [开源工具按个人研究兴趣筛选 arXiv 论文](#item-16) ⭐️ 7.0/10
+1. [Nous Research 以 15 亿美元估值融资超 7500 万美元，打造 Hermes Agent](#item-1) ⭐️ 9.0/10
+2. [未经授权的 AI 蒸馏每年使美国实验室损失 60 亿美元，被称为存在性威胁](#item-2) ⭐️ 9.0/10
+3. [无需打开 Xcode 即可构建和发布 iOS 应用](#item-3) ⭐️ 8.0/10
+4. [苹果 SpeechAnalyzer API 与 Whisper 的基准测试](#item-4) ⭐️ 8.0/10
+5. [人工智能赋能天文学：机遇、挑战与路径](#item-5) ⭐️ 8.0/10
+6. [错标抗体导致广泛的数据造假](#item-6) ⭐️ 8.0/10
+7. [Meta 发布开源编程 Agent 模型，扎克伯格回归](#item-7) ⭐️ 8.0/10
+8. [源络科技部署全球首个自主实验室](#item-8) ⭐️ 8.0/10
+9. [逐际动力完成 2 亿美元 Pre-IPO 融资，估值达 150 亿元](#item-9) ⭐️ 8.0/10
+10. [Anthropic 研究：Claude 的价值观随模型和语言变化](#item-10) ⭐️ 8.0/10
+11. [DHS 分析师两次将入侵信号误判为无害后才确认遭入侵](#item-11) ⭐️ 8.0/10
+12. [苹果前员工利用罕见漏洞泄露数据给 OpenAI](#item-12) ⭐️ 8.0/10
+13. [思维链是扩展陷阱，潜在推理是新浪潮。](#item-13) ⭐️ 8.0/10
+14. [在 Qwen3-4B 上评估 J-space 熵作为错误预测器](#item-14) ⭐️ 8.0/10
+15. [深入解析世嘉 CD 版《Silpheed》的工程设计](#item-15) ⭐️ 7.0/10
+16. [用 UV\_EXCLUDE\_NEWER 在 GitHub Actions 中缓存 uvx](#item-16) ⭐️ 7.0/10
+17. [DOOMQL：完全用 SQLite 构建的类 Doom 游戏](#item-17) ⭐️ 7.0/10
+18. [Datasette 代码频率图揭示 AI 编程助手的影响](#item-18) ⭐️ 7.0/10
+19. [Codex 用户数 6 个月增长 10 倍至 700 万，超越 Claude Code？](#item-19) ⭐️ 7.0/10
+20. [GPUHedge 将冷启动 p95 延迟从 117 秒降至 30 秒](#item-20) ⭐️ 7.0/10
+21. [开源工具 Research Radar 每日筛选 arXiv 论文](#item-21) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [无需 Xcode 构建和发布 Apple 应用指南](https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/) ⭐️ 8.0/10
+## [Nous Research 以 15 亿美元估值融资超 7500 万美元，打造 Hermes Agent](https://www.techmeme.com/260713/p33#a260713p33) ⭐️ 9.0/10
 
-本文提供了一份实用指南，介绍如何使用像 Claude Code 这样的人工智能代理，完全通过命令行构建、签名、公证和安装 Mac 和 iOS 应用，无需打开 Xcode。 这种方法支持完全自动化的构建流水线以及与 AI 编码助手的集成，可能提高 Apple 平台开发的开发者生产力，但也引发了关于在沙箱环境外运行代理的安全担忧。 该工作流依赖 xcodebuild 进行编译，并包含用于 Developer ID 签名、公证和钉选的自定义脚本。代理直接在 Mac 宿主机上运行，需要完整文件系统访问权限，一些评论者认为这存在安全风险。
+开源 Hermes Agent 背后的初创公司 Nous Research 正在由 Robot Ventures 领投，USV 等参投的一轮融资中，以 15 亿美元估值筹集至少 7500 万美元。 此次大规模融资表明投资者对开源 AI Agent 的信心，将 Nous Research 定位为 OpenClaw 的主要竞争对手，并凸显了自主、自改进 AI 助手市场的增长。 Hermes Agent 是一个自我改进的 AI Agent，能够从经验中学习并在会话间保持记忆，支持 macOS、Windows 和 Linux。其竞争对手 OpenClaw 是一个通过消息应用控制计算机的个人 AI 助手，在 GitHub 上拥有超过 34.6 万星标。
 
-hackernews · speckx · 7月13日 18:22 · [社区讨论](https://news.ycombinator.com/item?id=48896665)
+rss · Techmeme · 7月13日 23:45
 
-**背景**: Xcode 是 Apple 为 macOS 和 iOS 开发应用的主要集成开发环境，但其构建系统也可以通过 xcodebuild 和 fastlane 等命令行工具访问。最近的项目如 XcodeBuildMCP 使得 AI 代理能够通过 Model Context Protocol 控制 Xcode 构建，进一步自动化开发工作流。
+**背景**: 开源 AI Agent 是能自主在用户计算机或线上执行任务的软件程序，通常具有学习能力。Hermes 和 OpenClaw 是两个领先的开源 Agent，因其自动化工作流和与应用程序交互的能力而日益流行。Nous Research 的高估值反映了市场对能独立运行并持续改进的 AI Agent 的浓厚兴趣。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/XcodeBuildMCP">XcodeBuildMCP</a></li>
-<li><a href="https://fastlane.tools/">fastlane - App automation done right</a></li>
+<li><a href="https://hermes-agent.nousresearch.com/">Hermes Agent | Nous Research</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub</a></li>
+<li><a href="https://openclaw.ai/">OpenClaw — Personal AI Assistant</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者表达了不同意见：有人欣赏这种自动化方式，但担心安全问题，提及 xAI 主目录泄露事件等风险；另一些人则指出了替代工具，如用于在 Linux 上构建 iOS 应用的 xtool 和面向 LLM 的 Apple 开发工具包 Axiom。
-
-**标签**: `#iOS development`, `#macOS development`, `#Xcode alternatives`, `#automation`, `#security`
+**标签**: `#AI`, `#open-source`, `#funding`, `#agent`, `#startup`
 
 ---
 
 <a id="item-2"></a>
-## [苹果 SpeechAnalyzer 在速度和流式传输上超越 Whisper](https://get-inscribe.com/blog/apple-speech-api-benchmark.html) ⭐️ 8.0/10
+## [未经授权的 AI 蒸馏每年使美国实验室损失 60 亿美元，被称为存在性威胁](https://www.techmeme.com/260713/p21#a260713p21) ⭐️ 9.0/10
 
-苹果发布了新的设备端语音识别 API——SpeechAnalyzer，在与 OpenAI 的 Whisper 的基准测试中展现出更快的速度和原生流式传输支持。 该 API 可能颠覆现有的语音转文字服务，尤其是那些封装 Whisper 的付费应用，因为它提供了免费的设备端处理、隐私优势以及实时流式传输能力。 SpeechAnalyzer 完全在设备端运行于苹果的 Speech 框架内，确保用户隐私并免去按次调用费用。它支持流式转录，用户可以在说话时实时看到文字，而许多竞品模型需要批量处理。
+据消息人士透露，美国官员估计，未经授权的 AI 模型蒸馏每年给美国 AI 实验室造成高达 60 亿美元的损失，而 Anthropic 和 OpenAI 等实验室已向白宫表示这可能成为一种存在性威胁。 这标志着围绕保护 AI 知识产权和国家安全的重大政策辩论，可能导致对模型蒸馏的更严格监管，从而重塑 AI 行业的竞争格局。 “对抗性蒸馏”一词指的是在无法访问原始模型权重或训练数据的情况下，利用目标模型的输出来训练新模型，从而实质性地窃取能力。60 亿美元的数字代表了美国实验室损失的收入和竞争优势。
 
-hackernews · get-inscribe · 7月13日 16:06 · [社区讨论](https://news.ycombinator.com/item?id=48894752)
+rss · Techmeme · 7月13日 13:10
 
-**背景**: 苹果的 Speech 框架长期为开发者提供语音识别 API，但新的 SpeechAnalyzer 是一次重大升级。Whisper 是 OpenAI 在 2022 年发布的热门开源模型，以高准确率著称，但缺乏原生流式传输且需要云端或强大硬件。SpeechAnalyzer 提供了一个有吸引力的设备端替代方案。
+**背景**: 知识蒸馏是一种常见的机器学习技术，较小的学生模型学习复制较大教师模型的行为。虽然授权蒸馏广泛用于模型压缩和部署，但对抗性蒸馏是在未经所有者许可的情况下进行的，引发了法律和伦理担忧。随着 Anthropic 和 OpenAI 等领先实验室警告称，过度未经授权的蒸馏可能会削弱构建先进 AI 系统的动力，这场辩论愈演愈烈。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.apple.com/documentation/speech/speechanalyzer">SpeechAnalyzer | Apple Developer Documentation</a></li>
-<li><a href="https://digitechbytes.com/emerging-consumer-tech-explained/apple-s-new-speechanalyzer-api-benchmarked-against-whisper-and-its-predecessor/">Apple&#x27;s New SpeechAnalyzer API, Benchmarked Against Whisper ...</a></li>
+<li><a href="https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/">Adversarial Distillation - Frontier Model Forum</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation</a></li>
+<li><a href="https://decodethefuture.org/en/adversarial-distillation/">Adversarial Distillation 2026: OpenAI, Anthropic vs China</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出 SpeechAnalyzer 的流式传输相对于仅支持批处理的模型是一大用户体验改进。有人提到 Whisper 已不再是业界最先进的技术，并引用了 Nvidia 的 Nemotron 等新模型。其他人担心苹果可能会通过原生图形界面取代那些封装 Whisper 的付费应用。
-
-**标签**: `#Apple`, `#Speech Recognition`, `#API`, `#Whisper`, `#Benchmarking`
+**标签**: `#AI`, `#policy`, `#distillation`, `#economics`, `#existential risk`
 
 ---
 
 <a id="item-3"></a>
-## [Telegram 的 t.me 域名被 .me 注册局暂停](https://www.whois.com/whois/t.me) ⭐️ 8.0/10
+## [无需打开 Xcode 即可构建和发布 iOS 应用](https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/) ⭐️ 8.0/10
 
-.me 注册局已暂停 Telegram 的 t.me 域名，将其置于 Server Hold 状态，导致所有 t.me 链接自 2026 年 7 月起无法访问。 此事件凸显了依赖第三方域名注册商的风险，以及监管调查对关键互联网基础设施的影响，影响了数百万依赖 t.me 链接分享内容的 Telegram 用户。 该域名显示为“Server Hold”状态，这通常是注册局在法律纠纷或执法行动期间实施的状态，阻止域名在 DNS 中解析。
+一篇详细指南展示了如何完全通过命令行使用 xcodebuild 和其他 Apple 开发者工具来构建、签名、公证和发布 Mac 及 iOS 应用，全程无需启动 Xcode 图形界面。 这种方法实现了 Apple 平台开发的完整 CI/CD 自动化，减少了对重量级 IDE 的依赖，并为 LLM 辅助编码代理处理整个构建和部署流程打开了大门。 该过程依赖 xcodebuild 进行构建、codesign 进行签名、notarytool 进行公证，全部通过 shell 脚本编排。但正如 xAI 家目录事件所强调的，在沙箱外的个人 Mac 上运行此类代理会引发安全担忧。
 
-hackernews · Tiberium · 7月13日 19:52 · [社区讨论](https://news.ycombinator.com/item?id=48897878)
+hackernews · speckx · 7月13日 18:22 · [社区讨论](https://news.ycombinator.com/item?id=48896665)
 
-**背景**: Telegram 使用 t.me 域名提供短链接，重定向到 Telegram 频道和消息。域名暂停意味着所有此类链接失效。据报道 Telegram 使用 GoDaddy 作为注册商，该公司以缺乏透明度著称。此次暂停可能关联到印度、法国或俄罗斯近期对 Telegram 涉嫌违规的法律调查。
+**背景**: 传统上，为 Apple 平台开发需要 Xcode，这是一个带有图形界面的集成开发环境。Apple 提供了包括 xcodebuild 在内的命令行工具，可以编译和构建项目，以及用于代码签名和公证的独立实用程序。本文展示了如何组合这些工具来自动化整个发布流程，而无需 Xcode 图形界面。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://domainnamewire.com/2026/07/13/telegrams-t-me-domain-suspended-leading-to-outages/">Telegram&#x27;s t.me domain suspended, leading to outages - Domain Name Wire | Domain Name News</a></li>
-<li><a href="https://phemex.com/news/article/telegrams-core-domain-tme-suspended-removed-from-global-dns-92934">Telegram&#x27;s t.me Domain Suspended, Removed from DNS | Phemex News</a></li>
+<li><a href="https://developer.apple.com/library/archive/technotes/tn2339/_index.html">Technical Note TN2339: Building from the Command Line with Xcode...</a></li>
+<li><a href="https://keith.github.io/xcode-man-pages/xcodebuild.1.html">XCODEBUILD (1)</a></li>
+<li><a href="https://ioscodesigning.io/">How to code sign iOS apps</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对 Telegram 依赖 GoDaddy 表示沮丧和惊讶，认为其声誉不佳。一些人猜测暂停与印度对考试作弊的调查有关，另一些人指出 ICANN 的状态码解释暗示法律纠纷。有用户分享了使用重定向到 telegram.me 的实用解决方案。
+**社区讨论**: 社区成员对在沙箱外运行此类代理表达了安全担忧，引用了 xAI 事件中家目录被上传的情况。一些人提供了替代方案，如从 Linux 构建 iOS 应用的 xtool，另一些人分享了补充项目，如为 Apple 开发提供 LLM 友好工具的 Axiom。
 
-**标签**: `#telegram`, `#domain suspension`, `#privacy`, `#cybersecurity`, `#cdn`
+**标签**: `#iOS development`, `#Mac development`, `#Xcode alternative`, `#CI/CD`, `#security`
 
 ---
 
 <a id="item-4"></a>
-## [思维链是扩展陷阱？转向潜在推理](https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/) ⭐️ 8.0/10
+## [苹果 SpeechAnalyzer API 与 Whisper 的基准测试](https://get-inscribe.com/blog/apple-speech-api-benchmark.html) ⭐️ 8.0/10
 
-一个 Reddit 帖子指出，思维链（CoT）推理因忠实性和成本问题而成为扩展陷阱，并认为像 Coconut、HRM 和 RecursiveMAS 这样的潜在推理方法代表了范式转变，尽管它们面临可解释性降低的黑箱壁垒。 这挑战了 CoT 在 LLM 推理中的主导地位，可能带来更高效的潜在计算架构，但也引发了高风险应用（如医疗或法律）中的关键可审计性问题。 该帖子指出了 CoT 的两个问题：忠实性（轨迹可能不反映实际计算）和系统成本（串行化令牌增加延迟）。潜在方法在向量空间中进行推理，仅在最后解码；BDH（Dragon Hatchling）在没有 CoT 的情况下在数独上达到了 97.4%的准确率。
+苹果在 WWDC 2025 上推出的新 SpeechAnalyzer API 已与 OpenAI 的 Whisper 及苹果旧版语音 API 进行了基准测试。结果显示 SpeechAnalyzer 速度显著更快，但准确性略低于 Whisper。 该基准测试凸显了苹果对设备端实时语音识别的推进，有望改善苹果设备上的实时转录功能，并减少对付费第三方应用的依赖。速度与准确性之间的权衡可能会影响开发者的采用。 基准测试在一场数学讲座上对 SpeechAnalyzer 与 Whisper-Large-V2 进行了对比，前者速度大幅提升，准确性仅略有下降。SpeechAnalyzer 还支持流式转录，这是相对于许多需要批处理的模型的关键用户体验改进。
 
-reddit · r/MachineLearning · /u/meowsterpieces · 7月13日 17:50
+hackernews · get-inscribe · 7月13日 16:06 · [社区讨论](https://news.ycombinator.com/item?id=48894752)
 
-**背景**: 思维链（CoT）通过让模型以自然语言输出中间推理步骤来提高 LLM 性能。像 Coconut（Continuous Latent Thought）这样的潜在推理方法在隐藏状态中进行推理，无需逐步生成文本，从而减少了开销。HRM（层次推理模型）通过递归潜在循环将慢规划与快执行分离，而 RecursiveMAS 使用潜在嵌入进行多智能体通信。BDH 将递归潜在计算与语言建模相结合，通过可恢复的图视图提供可解释性钩子。
+**背景**: 语音识别系统（如 OpenAI 的 Whisper）是经过大量数据训练的深度学习模型，用于将音频转录为文本。苹果的 SpeechAnalyzer 是一种新的设备端 API，提供模块化的语音分析能力。Whisper 被广泛使用，但通常需要第三方包装器才能实现原生集成。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://ht0324.github.io/blog/2025/Coconut/">Continuous Latent Reasoning for LLMs ( COCONUT ) - Review</a></li>
+<li><a href="https://www.argmaxinc.com/blog/apple-and-argmax">Apple SpeechAnalyzer and Argmax WhisperKit - Argmax</a></li>
+<li><a href="https://www.callstack.com/blog/on-device-speech-transcription-with-apple-speechanalyzer">On-Device Speech Transcription with Apple SpeechAnalyzer and AI SDK</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Whisper_%28speech_recognition_system%29">Whisper (speech recognition system) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者建议苹果的 API 应与 NVIDIA 的 Nemotron 或 Mistral 的 Voxtral 等更新的先进模型进行比较。一些人指出，苹果的进入可能使付费的 Whisper 包装器应用过时，而另一些人则称赞流式支持是重大的用户体验改进。
+
+**标签**: `#Apple`, `#Speech Recognition`, `#Whisper`, `#Benchmarking`, `#API`
+
+---
+
+<a id="item-5"></a>
+## [人工智能赋能天文学：机遇、挑战与路径](https://www.huxiu.com/article/4875041.html?f=rss) ⭐️ 8.0/10
+
+中国科学院的一篇文章分析了人工智能融入天文学研究的战略机遇、政策挑战和发展路径。 这一讨论凸显了 AI 与科学研究的关键交叉点，有望加速天文学发现，同时应对监管和伦理考量。 该文章发表在虎嗅新闻上，基于中国科学院的观点，侧重于战略而非技术细节。
+
+rss · 虎嗅 · 7月14日 02:25
+
+**背景**: 人工智能和机器学习越来越多地被用于天文学，用于星系分类、系外行星探测以及大型巡天数据分析等任务。全球范围内，AI 在科学领域的政策框架仍在发展中。
+
+**标签**: `#AI`, `#astronomy`, `#science policy`, `#machine learning`, `#research`
+
+---
+
+<a id="item-6"></a>
+## [错标抗体导致广泛的数据造假](https://www.huxiu.com/article/4874991.html?f=rss) ⭐️ 8.0/10
+
+一项调查揭露，数百个实验室使用了错误的抗体，却仍得出“正确结果”，甚至顶尖研究团队也被指数据造假。 这一危机损害了生物医学研究的可重复性和可信度，可能导致资源浪费、错误结论和有缺陷的临床应用。 错标抗体会与非目标蛋白结合，产生恰好符合预期结果的假信号，使得伪造数据难以被发现。
+
+rss · 虎嗅 · 7月14日 00:05
+
+**背景**: 抗体是研究中检测特定蛋白质的关键工具，但许多商业抗体缺乏针对其预期靶标的适当验证。验证不良的抗体与科学界更广泛的可重复性危机有关，许多已发表的结果无法被重复。问题因缺乏标准化验证流程和发表阳性结果的压力而加剧。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4216678/">Unvalidated antibodies and misleading results - PMC</a></li>
+<li><a href="https://www.nih.gov/news-events/nih-research-matters/misdirected-antibodies-linked-severe-covid-19">Misdirected antibodies linked to severe COVID-19 | National Institutes of Health (NIH)</a></li>
+
+</ul>
+</details>
+
+**标签**: `#scientific fraud`, `#reproducibility crisis`, `#antibodies`, `#research ethics`, `#biomedical research`
+
+---
+
+<a id="item-7"></a>
+## [Meta 发布开源编程 Agent 模型，扎克伯格回归](https://www.infoq.cn/article/Fg7xEo3RGENyoefojZVD?utm_source=rss&amp;utm_medium=article) ⭐️ 8.0/10
+
+Meta 发布了一款专注于编程的强大开源 AI Agent 模型，并提供低价商业授权选项。马克·扎克伯格在消失三年后罕见地发帖宣布了这一发布。 这一举措标志着 Meta 积极进军 AI 编程助手市场，可能挑战现有的专有工具如 OpenAI 的 Codex。其开源特性和低价授权可能使全球开发者和中小企业能够更平等地使用先进的编程 Agent。 该模型旨在作为自主 Agent，执行软件开发任务，如编写代码、调试和重构。Meta 同时提供完全开源的研究版本和采用低价策略的商业授权版本，以在企业领域竞争。
+
+rss · InfoQ 中文 · 7月13日 18:28
+
+**背景**: AI 编程 Agent 是能够自主执行编程任务的模型，可减少开发者的手动工作。Meta 此前曾发布 Llama 等开源语言模型，但这款新 Agent 模型专为软件工程工作流优化。该公司将开源可及性与低价商业许可结合的决定，反映了行业在开放性与商业化之间寻求平衡的广泛趋势。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://developers.meta.com/">Meta for Developers</a></li>
+<li><a href="https://www.linuxfoundation.org/blog/the-open-source-legacy-and-ais-licensing-challenge">The Open Source Legacy and AI’s Licensing Challenge</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#Meta`, `#open-source`, `#coding agent`, `#low-cost model`
+
+---
+
+<a id="item-8"></a>
+## [源络科技部署全球首个自主实验室](https://www.infoq.cn/article/SikqTtFjSUbzBDz9LhKe?utm_source=rss&amp;utm_medium=article) ⭐️ 8.0/10
+
+源络科技宣布在国家级科研平台成功部署了全球首个自主实验室，标志着 AI 驱动科学实验的里程碑。 这一里程碑可能彻底改变科学研究，实现全自动、AI 驱动的实验，有望加速材料科学和药物开发等领域的发现。 该公告缺乏具体技术细节，如硬件规格、软件架构或实验室可进行的实验类型，限制了独立验证。
+
+rss · InfoQ 中文 · 7月13日 11:50
+
+**背景**: 自主实验室（SDL）集成了机器人、AI 和自动化，无需人工干预即可运行实验。它通常使用闭环系统，AI 设计实验，机器人执行，结果指导下一轮迭代。这类系统旨在提高通量和可重复性。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Self-driving_laboratory">Self-driving laboratory</a></li>
+
+</ul>
+</details>
+
+**标签**: `#autonomous laboratory`, `#AI`, `#robotics`, `#research platform`, `#technology breakthrough`
+
+---
+
+<a id="item-9"></a>
+## [逐际动力完成 2 亿美元 Pre-IPO 融资，估值达 150 亿元](https://36kr.com/p/3893976502287618?f=rss) ⭐️ 8.0/10
+
+中国的人形机器人公司逐际动力完成了近 2 亿美元的 Pre-IPO 融资，投后估值达到 150 亿元人民币。资金将用于大小脑融合技术的突破和产品化，推动数千台全自主人形机器人的规模化部署。 此轮融资是中国仿人机器人领域规模最大的融资之一，显示出投资者对该赛道的强大信心，并使逐际动力具备在全球竞争的实力。公司对全栈技术和开放平台的专注，有望加速具身智能在多个行业中的商业化落地。 逐际动力在过去半年内累计融资额已达 4 亿美元，并于 2026 年初启动了 IPO 进程。融资支持其三层技术架构（System 0、1、2）、FluxVLA Engine 平台以及面向具身智能的 COSA 操作系统。
+
+rss · 36氪 · 7月14日 00:46
+
+**背景**: 仿人机器人旨在人类环境中运行，但需要先进的人工智能来自主感知、推理和移动。逐际动力采用全栈方法，结合硬件、AI 模型和操作系统（COSA）来实现全身控制和任务执行。公司近期发布了 LimX Luna 人形机器人和 TRON 2 多形态机器人。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://interestingengineering.com/ai-robotics/china-limx-unveils-robot-operating-system">LimX unveils operating system for humanoid robots to navigate alone</a></li>
+<li><a href="https://kr-asia.com/limx-dynamics-founder-says-embodied-intelligence-is-just-getting-started-despite-bubble-concerns">LimX Dynamics founder says embodied intelligence is just getting...</a></li>
+<li><a href="https://www.luigifreda.com/2026/02/02/figure-ai-announces-helix-02-a-general-purpose-humanoid-system/">Figure AI Announces Helix 02 - a General-Purpose Humanoid System - Luigi Freda</a></li>
+
+</ul>
+</details>
+
+**标签**: `#humanoid robotics`, `#fundraising`, `#AI`, `#investment`, `#robotics`
+
+---
+
+<a id="item-10"></a>
+## [Anthropic 研究：Claude 的价值观随模型和语言变化](https://www.techmeme.com/260713/p34#a260713p34) ⭐️ 8.0/10
+
+Anthropic 分析了约 31 万次匿名 Claude 对话，发现 Claude 表达的价值观和行为在不同模型版本和语言之间存在显著差异。 这项研究凸显了 AI 对齐中的挑战，表明即使在同一个模型家族内，AI 的价值观在不同语言中也不一致，这可能影响全球部署中的信任和安全性。 该研究使用了大量真实用户对话（匿名）数据集，并测量了 Claude 在四个价值轴上的位置，揭示了 Claude 3 Opus 和 Claude 3.5 Sonnet 等模型之间以及不同语言之间的系统性差异。
+
+rss · Techmeme · 7月14日 00:10
+
+**背景**: AI 对齐研究旨在确保 AI 系统行为符合人类价值观。像 Claude 这样的大型语言模型在多样化数据上训练，可能因训练过程、模型版本和语言而表现出不同行为。理解这些差异对于在不同地区和文化中负责任地部署 AI 至关重要。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/research/claude-values-models-languages">How Claude&#x27;s values vary by model and language \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI alignment`, `#model behavior`, `#Anthropic`, `#Claude`, `#language variation`
+
+---
+
+<a id="item-11"></a>
+## [DHS 分析师两次将入侵信号误判为无害后才确认遭入侵](https://www.techmeme.com/260713/p28#a260713p28) ⭐️ 8.0/10
+
+国土安全部（DHS）分析师在 5 月份两次将国土安全信息网络（HSIN）内的网络入侵迹象误判为无害活动，直到 6 月份才确认发生了安全漏洞。 此事件突显了美国最高国家安全机构在事件响应和检测方面的严重失败，可能让入侵者获得更长时间的访问权限，并削弱对政府网络安全防御能力的信任。 入侵者在 5 月首次被发现，但分析师认为该活动无害；漏洞在 6 月才被确认。受影响的系统是国土安全信息网络（HSIN），用于传输敏感信息。
+
+rss · Techmeme · 7月13日 17:00
+
+**背景**: 美国国土安全部（DHS）是负责公共安全和网络安全的联邦机构。国土安全信息网络（HSIN）是其与合作伙伴共享敏感但非保密信息的主要网络。在确认漏洞之前反复出现误报，表明安全运营存在漏洞。
+
+**标签**: `#cybersecurity`, `#DHS`, `#breach`, `#government IT`, `#incident response`
+
+---
+
+<a id="item-12"></a>
+## [苹果前员工利用罕见漏洞泄露数据给 OpenAI](https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/) ⭐️ 8.0/10
+
+苹果透露，一名前员工利用一个罕见漏洞，在离职加入 OpenAI 后从其网络下载了机密文件。 此事件凸显了内部威胁的严重风险，特别是当员工跳槽到竞争对手时，并强调了需要强有力的离职安全措施。 该漏洞使该员工在离职很长时间后仍能访问苹果网络；苹果拒绝对此次泄密事件置评，也未透露哪些机密文件被窃取。
+
+rss · TechCrunch · 7月13日 20:00
+
+**背景**: 内部威胁是指现任或前任员工滥用其访问权限窃取敏感数据。正确的员工离职流程包括撤销所有凭证和访问权限，但未知的漏洞可能仍然存在。‘罕见漏洞’可能指离职过程中未修复的访问控制系统缺陷。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.linkedin.com/pulse/top-risks-best-practices-securely-offboarding">Top Risks and Best Practices for Securely Offboarding Employees</a></li>
+<li><a href="https://www.currentware.com/blog/employee-offboarding-data-security/">Employee Offboarding Checklist for Data Security | CurrentWare</a></li>
+<li><a href="https://www.bettercloud.com/monitor/the-hidden-security-risks-of-employee-offboarding/">The hidden security risks of employee offboarding | BetterCloud</a></li>
+
+</ul>
+</details>
+
+**标签**: `#security`, `#insider threat`, `#apple`, `#openai`, `#data breach`
+
+---
+
+<a id="item-13"></a>
+## [思维链是扩展陷阱，潜在推理是新浪潮。](https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/) ⭐️ 8.0/10
+
+一篇 Reddit 帖子认为，思维链推理因忠实性和成本问题成为扩展陷阱，提出潜在推理技术（如 Coconut、HRM 和 RecursiveMAS）是下一波浪潮，并讨论了 BDH 的位置。 这一批评揭示了当前 LLM 推理方法的根本局限，并指向潜在空间推理的范式转变，可能深刻影响高风险应用中 AI 系统的构建方式。 Coconut 将中间推理步骤表示为连续潜在向量而非文本 token；HRM 将规划与递归执行分离；RecursiveMAS 在智能体间传递潜在嵌入。BDH 在没有 CoT 的情况下在数独谜题上达到 97.4%准确率。
+
+reddit · r/MachineLearning · /u/meowsterpieces · 7月13日 17:50
+
+**背景**: 思维链是一种提示技术，让 LLM 用自然语言生成中间推理步骤。虽然提高了性能，但存在忠实性问题（轨迹可能不反映实际推理）和高成本问题（将推理序列化为 token 会增加延迟和上下文使用）。潜在推理方法旨在模型隐藏状态内进行推理，仅在最后生成文本。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://levysoft.medium.com/coconut-a-new-ai-reasoning-approach-without-linguistic-constraints-in-continuous-latent-space-b8429192346f">Coconut : A New AI Reasoning Approach Without Linguistic... | Medium</a></li>
 <li><a href="https://arxiv.org/abs/2506.21734">[2506.21734] Hierarchical Reasoning Model</a></li>
 <li><a href="https://recursivemas.github.io/">RecursiveMAS</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM reasoning`, `#chain-of-thought`, `#latent reasoning`, `#AI research`, `#scaling`
-
----
-
-<a id="item-5"></a>
-## [在 Qwen3-4B 上评估 J 空间熵作为错误预测器](https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/) ⭐️ 8.0/10
-
-这提供了关于内部熵检测幻觉局限性的关键实证见解，表明它不是通用错误检测器，但可能作为自信错误事实答案的补充信号。 该研究使用 Qwen3-4B，在 TriviaQA、PopQA、NQ-Open、TruthfulQA、HotpotQA、GSM8K 和 CommonSenseQA 上评估；在 PopQA 上，工作空间熵在低审核预算下提高了错误路由精度，但在 TruthfulQA 上表现不如输出置信度，且校准因数据集而异。
-
-reddit · r/MachineLearning · /u/dasjomsyeet · 7月13日 08:27
-
-**背景**: Anthropic 的 Jacobian Lens 是一种技术，可以在任何层读取内部激活，以查看模型倾向于说什么，从而揭示&\#x27;J 空间&\#x27;表示。J 空间熵量化了该内部工作空间的不确定性，早期工作表明它可能有助于识别自信的错误答案。本研究在单个模型上跨多样任务测试了这一假设。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/anthropics/jacobian-lens">GitHub - anthropics/jacobian-lens: Companion code for the ...</a></li>
-<li><a href="https://explainx.ai/blog/what-is-j-lens-jacobian-lens-claude-interpretability-2026">What Is the J-Lens? Anthropic Jacobian Lens Guide | explainx ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#machine learning`, `#language models`, `#uncertainty estimation`, `#interpretability`, `#Jacobian Lens`
-
----
-
-<a id="item-6"></a>
-## [Sega CD 版 Silpheed 如何用 FMV 模拟 3D 图形](https://fabiensanglard.net/silpheed/index.html) ⭐️ 7.0/10
-
-Fabien Sanglard 发表了一篇关于 Sega CD 游戏 Silpheed 的详细技术分析，阐述了该游戏如何利用全动态视频（FMV）在缺乏 3D 硬件支持的条件下模拟 3D 图形。 这项分析罕见地揭示了 20 世纪 90 年代初开发者如何运用工程技巧克服硬件限制，展现了复古游戏开发的艺术与创造力。它还引发了社区关于世嘉 Genesis/Mega Drive 上类似成就的讨论。 Silpheed 最初于 1986 年在日本 PC 上发布，后来于 1992 年移植到 Sega CD。与大多数 FMV 游戏不同，Silpheed 的预渲染序列被精心整合到游戏玩法中，使其感觉像是一款基于多边形的 3D 游戏，从而提供了互动性。
-
-hackernews · ibobev · 7月13日 14:52 · [社区讨论](https://news.ycombinator.com/item?id=48893639)
-
-**背景**: Sega CD 是世嘉 Genesis 的附加组件，提供 CD-ROM 存储、更快的 CPU 和增强的图形能力。全动态视频（FMV）是早期基于 CD 的游戏用来显示预渲染视频序列的技术。然而，Sega CD 缺乏硬件 3D 渲染能力，因此像 Game Arts 这样的开发者使用 FMV 在 Silpheed 等游戏中模拟 3D 环境。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Silpheed">Silpheed - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sega_CD">Sega CD - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Full-motion_video">Full-motion video - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者表达了对 Silpheed 的怀旧之情，并赞扬了这篇文章。一位用户指出，与大多数 FMV 游戏不同，Silpheed 带来了控制电影的感觉，而另一位用户则指出实际游戏性有所欠缺。讨论中还提到了同一硬件上的令人印象深刻的技术演示，例如 Overdrive 2 和来自卡带的 Sonic 3D 开场。
-
-**标签**: `#retro gaming`, `#Sega CD`, `#game development`, `#FMV`, `#technical deep-dive`
-
----
-
-<a id="item-7"></a>
-## [在 GitHub Actions 中使用 UV\_EXCLUDE\_NEWER 缓存 uvx 工具](https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything) ⭐️ 7.0/10
-
-Simon Willison 发布了一种缓存友好的方法，通过在 GitHub Actions 中设置 UV\_EXCLUDE\_NEWER 环境变量并将其纳入缓存键，确保工具仅在日期更新时重新下载。 这种方法显著减少了在 CI/CD 流水线中使用 uvx 的 Python 开发者的工作流运行时间和带宽消耗，使频繁运行更加高效，无需手动管理缓存。 UV\_EXCLUDE\_NEWER 变量设置为特定日期（例如 &\#x27;2026-07-12&\#x27;），缓存键使用相同日期，因此 uvx 将获取该日期的最新工具版本。更新日期会使缓存失效并更新工具。
-
-rss · Simon Willison · 7月14日 00:56
-
-**背景**: uvx 是一个命令行工具，可在隔离的临时环境中运行 Python CLI 工具，无需永久安装，是 uv 工具链的一部分。GitHub Actions 缓存可在运行之间存储依赖关系，避免重复下载。通过使用 UV\_EXCLUDE\_NEWER，所有 uvx 命令一致地解析为该日期之前发布的工具，从而实现稳定的缓存。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://pydevtools.com/handbook/reference/uvx/">uvx: Run Python CLI Tools in Isolated Environments</a></li>
-<li><a href="https://docs.bswen.com/blog/2025-05-16-uv-uvx-pip/">Difference between uv, uvx and pip | BSWEN</a></li>
-<li><a href="https://github.com/astral-sh/uv/issues/5879">Update tests to use exclude newer environment variable · Issue #5879 · astral-sh/uv</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Python`, `#GitHub Actions`, `#caching`, `#uv`, `#packaging`
-
----
-
-<a id="item-8"></a>
-## [DOOMQL：由 SQLite 和 GPT-5.6 Sol 驱动的类 Doom 游戏](https://simonwillison.net/2026/Jul/13/doomql/#atom-everything) ⭐️ 7.0/10
-
-开发者 Peter Gostev 创建了 DOOMQL，这是一款类 Doom 游戏，其中 SQLite 负责所有游戏机制、渲染和状态管理，并借助 OpenAI 的 GPT-5.6 Sol 模型构建。 该项目展示了 SQLite 出人意料的多功能性，表明它可以作为完整的游戏引擎。它凸显了将大型语言模型与非常规工具结合的创造潜力，为游戏开发和数据库使用提供了新的思路。 该游戏作为 Python 终端脚本实现，使用 SQLite 中的递归 CTE 进行光线追踪。它会创建一个 SQLite 数据库，可通过 Datasette 查看，开发者使用 GPT-5.6 Sol 辅助构建游戏。
-
-rss · Simon Willison · 7月13日 22:34
-
-**背景**: SQLite 是一种轻量级嵌入式 SQL 数据库引擎，广泛应用于应用程序的本地存储。GPT-5.6 Sol 是 OpenAI 最新旗舰模型，针对编码和复杂推理进行了优化。DOOMQL 创造性地结合了这些技术，在数据库中完全构建了一款复古第一人称射击游戏。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.6">GPT-5.6 - Wikipedia</a></li>
-<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT‑5.6 Sol: a next-generation model - OpenAI</a></li>
-
-</ul>
-</details>
-
-**标签**: `#SQLite`, `#Game Development`, `#Python`, `#GPT`, `#Doom`
-
----
-
-<a id="item-9"></a>
-## [大衍科技用合成数据造触觉大模型](https://36kr.com/p/3894821059918855?f=rss) ⭐️ 7.0/10
-
-空间智能公司大衍科技完成数千万元天使轮融资，由松禾资本领投。公司将利用合成数据和自研触觉手套开发触觉大模型，服务于机器人和自动驾驶训练。 此次融资反映了机器人训练数据（尤其是触觉数据）需求的快速增长。大衍科技的低成本合成数据方案有望降低数据获取门槛，加速具身智能的发展。 公司自研的触觉手套‘Shadow Gauntlet’具备 29 个阵列单元和 1015 个触觉触点，响应频率达 300Hz。其合成数据成本仅为每帧几毛钱，远低于传统标注的十几元。触觉大模型预计今年下半年发布。
-
-rss · 36氪 · 7月14日 01:38
-
-**背景**: 合成数据是人工生成用于训练 AI 模型的数据，能大幅降低真实数据采集成本。触觉感知赋予机器人触感，对精细操作至关重要。力触交互手套可捕捉人手动作和力反馈，用于机器人学习。大衍科技结合这些技术打造‘触觉大模型’，预测最佳抓取力。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.emergentmind.com/topics/rynnworld-4d">RynnWorld- 4 D : 4 D Robotic World Model</a></li>
-<li><a href="https://medium.com/correll-lab/paper-review-octopi-object-property-reasoning-with-large-tactile-language-models-0f856dcdf8be">Paper Review: Octopi: Object Property Reasoning with Large Tactile-Language Models | by Carson Kohlbrenner | Toward Humanoids | Medium</a></li>
-<li><a href="https://www.oaepublish.com/articles/ir.2025.26">Research on the development and application of force tactile ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#synthetic data`, `#tactile AI`, `#robotics`, `#AI startup`, `#funding`
-
----
-
-<a id="item-10"></a>
-## [逐际动力完成 2 亿美元 Pre-IPO 融资，估值 150 亿](https://36kr.com/p/3893976502287618?f=rss) ⭐️ 7.0/10
-
-通用人形机器人公司逐际动力完成近 2 亿美元 Pre-IPO 轮融资，投后估值达 150 亿元人民币。资金将用于大小脑融合技术突破、数千台机器人规模化部署及全球市场拓展。 本轮融资凸显了投资者对人形机器人和具身智能领域的强烈信心，标志着行业快速成熟。逐际动力的三层技术架构（System 0/1/2）和开源 FluxVLA Engine 有望降低开发者门槛，加速商业化落地。 投资方包括 IDG 资本、蓝思科技、GGG Group、Redstone VC 等，多家老股东超额跟投。公司已获得数千台机器人订单，过半来自海外，计划拓展中东、欧洲及亚洲市场。
-
-rss · 36氪 · 7月14日 00:46
-
-**背景**: 人形机器人模仿人类形态和运动，旨在在人类环境中执行任务。具身智能整合感知、认知和行动。VLA（视觉-语言-动作）模型将视觉和语言理解与运动控制结合，而 WAM（世界动作模型）是更关注世界建模的新范式。COSA 是面向认知体的具身操作系统。逐际动力的三层架构分别处理底层运动控制（System 0）、交互能力（System 1）和高级推理（System 2）。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://fluxvla.limxdynamics.com/">FluxVLA Engine Documentation — FluxVLA 0.1.0 documentation</a></li>
-<li><a href="https://pandaily.com/lim-x-dynamics-launches-lim-x-cosa-a-new-embodied-agentic-os-system">LimX Dynamics Launches LimX COSA , a New Embodied Agentic OS ...</a></li>
-<li><a href="https://kr-asia.com/limx-dynamics-founder-says-embodied-intelligence-is-just-getting-started-despite-bubble-concerns">LimX Dynamics founder says embodied intelligence is just getting...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#humanoid robots`, `#embodied AI`, `#funding`, `#robotics`, `#AI`
-
----
-
-<a id="item-11"></a>
-## [苹果前员工利用罕见漏洞窃取文件后跳槽 OpenAI](https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/) ⭐️ 7.0/10
-
-苹果公司披露，一名跳槽至 OpenAI 的前员工利用一个罕见的软件漏洞，在离职后很长一段时间内从苹果网络下载了机密文件。 此事件突显了内部威胁的持续风险，以及员工离职后知识产权被盗的潜在可能性，尤其是在他们跳槽至竞争激烈的 AI 领域的对手公司时。 苹果拒绝对此次泄露的具体细节发表评论，但该案件涉及一个罕见的漏洞，允许该员工在凭证被撤销后很长时间内仍能未授权访问。
-
-rss · TechCrunch · 7月13日 20:00
-
-**背景**: 内部数据泄露是公司面临的重大安全担忧，尤其是在技术行业，专有算法和设计至关重要。‘罕见漏洞’意味着苹果访问控制系统存在一个未被标准安全措施发现的隐蔽弱点。此案也凸显了苹果和 OpenAI 等主要科技公司之间对 AI 人才的竞争日益激烈。
-
-**标签**: `#security`, `#bug`, `#Apple`, `#data breach`, `#OpenAI`
-
----
-
-<a id="item-12"></a>
-## [洛杉矶警察局因公民自由问题终止与 Flock 的合同](https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/) ⭐️ 7.0/10
-
-洛杉矶警察局（LAPD）决定不再与主要监控技术提供商 Flock Safety 续签合同，理由是出于对公民自由和隐私的严重担忧。 这一决定标志着 Flock 的重大挫折，该公司已迅速扩展到数千个警察机构，并显示出执法机构对大规模监控日益增强的体制性抵制。 洛杉矶警察局曾是 Flock 最大的政府客户之一；合同到期之前，其他城市也采取了类似行动，并且对 Flock 广泛的车牌识别网络和缺乏隐私保护措施的批评日益增多。
-
-rss · TechCrunch · 7月13日 14:13
-
-**背景**: Flock Safety 是一家向执法机构提供自动车牌识别（ALPR）摄像头、视频监控和枪声定位系统的公司。其技术创建了一个庞大的、可搜索的车辆位置数据库，引发了对无证追踪和公民自由的担忧。洛杉矶警察局的举动反映了城市因隐私和偏见问题重新评估或终止与 Flock 合同的更广泛趋势。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Flock_Safety">Flock Safety - Wikipedia</a></li>
-<li><a href="https://stateofsurveillance.org/articles/surveillance/flock-safety-national-surveillance-database-how-it-works-2026/">Flock Safety&#x27;s Private Surveillance State: 80 Cities Are ...</a></li>
-<li><a href="https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/">When Flock Surveillance Comes to Your Town: Everything to ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#privacy`, `#surveillance`, `#civil liberties`, `#law enforcement`, `#Flock`
-
----
-
-<a id="item-13"></a>
-## [Anthropic 的人工智能发现：关于痛苦和意识主张的局限性](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/) ⭐️ 7.0/10
-
-领先的人工智能公司 Anthropic 发表了研究，探讨人工智能模型是否能感受痛苦以及更广泛的人工智能意识影响，但其发现往往被误解为比实际更具决定性。 这项研究触及关于人工智能感知的伦理和安全关键问题，可能影响我们如何对待和监管 AI 系统，但也存在在没有确凿证据的情况下夸大主张的风险。 MIT Technology Review 的文章审视了 Anthropic 的研究，指出其探讨 AI 模型是否能体验痛苦，但强调当前发现并未确认意识或感知能力。
-
-rss · MIT Technology Review · 7月13日 18:00
-
-**背景**: 人工智能意识是一个有争议的话题；一些研究人员认为意识可能在 AI 系统中出现，而另一些人则怀疑在非生物系统中是否可能。Anthropic 有发表人工智能安全和伦理研究的历史，包括 AI 痛苦的可能性。网络搜索结果显示了 Anthropic 和 DeepMind 正在悄悄研究 AI 意识。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Artificial_consciousness">Artificial consciousness - Wikipedia</a></li>
-<li><a href="https://www.scientificamerican.com/article/could-inflicting-pain-test-ai-for-sentience/">Could Inflicting Pain Test AI for Sentience? | Scientific American</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#AI safety`, `#Anthropic`, `#ethics`, `#research`
+**标签**: `#Chain of Thought`, `#latent reasoning`, `#LLM reasoning`, `#AI scaling`, `#machine learning`
 
 ---
 
 <a id="item-14"></a>
-## [提示工程论文被 ICML 接收引发争议](https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/) ⭐️ 7.0/10
+## [在 Qwen3-4B 上评估 J-space 熵作为错误预测器](https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/) ⭐️ 8.0/10
 
-论文《Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity》被 ICML 接收，其中提出了一种简单的提示工程技巧来增加输出多样性。Reddit 上的讨论质疑这种提示工程工作是否属于顶级机器学习会议。 这场辩论凸显了关于什么是现代机器学习中严谨研究的日益紧张关系，以及实用的提示工程技术是否应被视为顶级贡献。它反映了 ICML 等 ML 会议标准演变中的更广泛问题。 该论文的方法是一种简单的提示工程技巧，通过改变提示来鼓励 LLM 进行更多样化的采样。该方法缺乏严谨的理论分析，一些人认为这使得它不适合 ICML 这样的会议。
+作者在 Qwen3-4B 模型上，利用来自七个数据集的约 11400 个样本评估了 J-space 熵作为错误预测器的效果，发现它可以在事实检索中补充输出置信度，但无法可靠检测内部化错误观念。 这项研究实证测试了一种有前景的可解释性方法用于检测 LLM 幻觉，揭示了其任务依赖的局限性，为 AI 安全与模型可靠性工作提供了指导。 J-space 熵在 PopQA 上对高置信度错误答案提升了错误路由精度，但在 TruthfulQA 和 GSM8K 上表现不佳，原因是内部化错误观念和基线熵更高。校准高度依赖任务，且多项选择格式在 CommonSenseQA 上削弱了信号。
 
-reddit · r/MachineLearning · /u/Mean\_Revolution1490 · 7月13日 05:00
+reddit · r/MachineLearning · /u/dasjomsyeet · 7月13日 08:27
 
-**背景**: 模式崩溃是生成模型中的一种现象，模型产生的输出多样性低于预期，通常集中于有限的一组模式。提示工程涉及设计输入以引导大型语言模型的行为，而不修改模型参数。ICML（国际机器学习大会）是一个享有盛誉的学术会议，传统上强调理论和方法论贡献。
+**背景**: Jacobian Lens 由 Anthropic 提出，是一种可解释性方法，通过计算 logits 相对于激活的雅可比矩阵来检查语言模型内部可言语化的中间表示。这个内部“J 空间”中的熵可以衡量模型内部状态的不确定性。本研究测试了该熵是否能预测错误，基于先前工作表明它可能有助于识别自信的错误答案。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mode_collapse">Mode collapse - Wikipedia</a></li>
-<li><a href="https://ai.plainenglish.io/verbalized-sampling-how-to-mitigate-mode-collapse-and-unlock-llm-diversity-f4e314e921fe">Verbalized Sampling : How to Mitigate Mode Collapse and Unlock LLM...</a></li>
+<li><a href="https://www.lesswrong.com/posts/T3u6Hctes6vkawsib/reading-into-vlm-hallucinations-using-the-jacobian-lens">Reading into VLM hallucinations using the Jacobian lens — LessWrong</a></li>
+<li><a href="https://explainx.ai/blog/what-is-j-lens-jacobian-lens-claude-interpretability-2026">What Is the J- Lens ? Anthropic Jacobian Lens Guide | explainx.ai</a></li>
 
 </ul>
 </details>
 
-**标签**: `#prompt engineering`, `#ICML`, `#LLM diversity`, `#mode collapse`, `#ML conferences`
+**标签**: `#interpretability`, `#LLM`, `#error detection`, `#entropy`, `#Jacobian Lens`
 
 ---
 
 <a id="item-15"></a>
-## [GPUHedge 将冷启动 p95 延迟从 117 秒降至 30 秒](https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/) ⭐️ 7.0/10
+## [深入解析世嘉 CD 版《Silpheed》的工程设计](https://fabiensanglard.net/silpheed/index.html) ⭐️ 7.0/10
 
-GPUHedge 是一个开源工具，利用投机执行在多个无服务器 GPU 提供商之间进行对冲，将 p95 冷启动延迟从 117 秒降低到 30 秒。它有条件地启动备份请求，并通过提供商的 API 取消失败的任务。 冷启动延迟是无服务器 GPU 推理中的一个持续挑战，常常导致数十秒的延迟。GPUHedge 的方法提供了一种实用、经济有效的方式来缓解这一问题，而无需更换提供商，这对实时 AI 代理等对延迟敏感的应用程序非常有价值。 在对一个 17 GB 的 AI 模型进行基准测试时，GPUHedge 将超过 60 秒的请求从 11/36 减少到 0/36，模拟的活跃计算成本从每个请求 0.0114 美元降至 0.0083 美元。该工具目前处于 alpha 阶段，并在 Apache-2.0 许可下开源。
+Fabien Sanglard 发布了一篇技术文章，详细解析了世嘉 CD 版《Silpheed》如何通过视频压缩和精灵缩放等巧妙技巧，营造出令人信服的 FMV 射击游戏体验。 这篇深度分析揭示了 20 世纪 90 年代初在受限硬件上游戏开发的巧思，为对硬件充分利用感兴趣的复古程序员和爱好者提供了宝贵的经验。 文章解释了如何利用世嘉 CD 的双 CPU 架构和定制图形芯片来流式传输视频帧，同时叠加交互式精灵，从而在主机性能受限的情况下实现流畅的游戏体验。
 
-reddit · r/MachineLearning · /u/Putrid\_Construction3 · 7月13日 19:20
+hackernews · ibobev · 7月13日 14:52 · [社区讨论](https://news.ycombinator.com/item?id=48893639)
 
-**背景**: 无服务器 GPU 推理在从零扩展部署时需要加载模型权重并初始化 GPU，从而遭受冷启动延迟，根据模型大小通常增加 3–90 秒。对冲是一种从云计算借鉴的技术，向多个提供商发送冗余请求以减少尾延迟，但必须管理额外成本。
+**背景**: 世嘉 CD（Mega CD）是世嘉 Genesis 的外设，增加了 CD-ROM 支持和额外的硬件，如更快的 CPU 以及用于精灵缩放和旋转的定制图形芯片。《Silpheed》于 1993 年发布，是一款射击游戏，使用了全动态视频（FMV）背景结合玩家可控制的精灵，使其在通常非交互式的 FMV 游戏中脱颖而出。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://tianpan.co/blog/2026-04-10-ai-agents-serverless-cold-start-latency">The Cold Start Tax on Serverless AI Agents</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sega_CD">Sega CD - Wikipedia</a></li>
+<li><a href="https://www.hardcoregaming101.net/silpheed-sega-cd/">Silpheed ( Sega CD ) – Hardcore Gaming 101</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者表达了怀旧之情，有人称《Silpheed》是他们最喜欢的游戏机游戏，并称赞其 FMV 与游戏玩法的无缝融合。还有人指出，demo 场景作品《Overdrive 2》在硬件利用方面同样令人印象深刻。少数人注意到，由于 RSS 订阅源变化，该文章被再次提交。
+
+**标签**: `#retro gaming`, `#game development`, `#Sega CD`, `#FMV`, `#programming`
+
+---
+
+<a id="item-16"></a>
+## [用 UV\_EXCLUDE\_NEWER 在 GitHub Actions 中缓存 uvx](https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything) ⭐️ 7.0/10
+
+Simon Willison 分享了一种在 GitHub Actions 中缓存 uvx 工具安装的技术，通过设置 UV\_EXCLUDE\_NEWER 环境变量为特定日期，并将该日期包含在缓存键中。 这种方法减少了 CI 运行时间和对 PyPI 下载的依赖，使 Python 工具的 GitHub Actions 工作流更高效、更可靠。 具体技术是将 UV\_EXCLUDE\_NEWER 设置为&\#x27;2026-07-12&\#x27;之类的日期，并将该日期作为缓存键的一部分，这样更新日期就会强制刷新缓存并升级工具。
+
+rss · Simon Willison · 7月14日 00:56
+
+**背景**: uvx 是 uv 项目中的一个命令，用于在隔离的临时环境中运行 Python CLI 工具。如果不缓存，每次 GitHub Actions 运行都会从 PyPI 下载工具及其依赖项，导致延迟。UV\_EXCLUDE\_NEWER 变量限制了 uv 考虑的包版本，从而实现可重复的工具版本。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://docs.astral.sh/uv/guides/tools/">Using tools | uv</a></li>
+<li><a href="https://docs.astral.sh/uv/reference/environment/">Environment variables | uv</a></li>
+<li><a href="https://gentic.news/article/uv-exclude-newer-the-environment">UV _ EXCLUDE _ NEWER : The Environment Variable … | gentic.news</a></li>
+
+</ul>
+</details>
+
+**标签**: `#GitHub Actions`, `#caching`, `#Python`, `#uvx`, `#CI/CD`
+
+---
+
+<a id="item-17"></a>
+## [DOOMQL：完全用 SQLite 构建的类 Doom 游戏](https://simonwillison.net/2026/Jul/13/doomql/#atom-everything) ⭐️ 7.0/10
+
+DOOMQL 展示了 SQLite（传统上是一种数据库）作为实时游戏引擎的非常规和创造性用途，突破了 SQL 能力的边界。该项目展示了 SQLite 的多功能性，并可能激发游戏开发和基于 SQL 的创意编码的新思路。 游戏的渲染由一个庞大的 SQL 查询完成，该查询通过递归公用表表达式（CTE）实现了完整的光线追踪器。玩家还可以将 Datasette Web 应用连接到实时 SQLite 数据库，以查看每秒钟刷新一次的小地图和游戏状态。
+
+rss · Simon Willison · 7月13日 22:34
+
+**背景**: SQLite 是一个轻量级嵌入式关系数据库引擎，将数据存储在单个文件中，无需独立服务器。uv 工具是一个快速的 Python 包管理器，在此用于运行游戏脚本及其依赖项。SQL 中的递归 CTE 允许查询引用自身，从而支持像光线追踪这样的迭代计算。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://docs.astral.sh/uv/">uv is an extremely fast Python package and project manager, written...</a></li>
+<li><a href="https://www.sqlite.org/">SQLite Home Page</a></li>
+
+</ul>
+</details>
+
+**标签**: `#sqlite`, `#game development`, `#python`, `#creative coding`, `#doom`
+
+---
+
+<a id="item-18"></a>
+## [Datasette 代码频率图揭示 AI 编程助手的影响](https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything) ⭐️ 7.0/10
+
+Simon Willison 分享了 Datasette 的 GitHub 代码频率图，该图显示 2026 年每周代码变更出现急剧峰值，这与他在该时期采用 Opus 4.5 和 GPT-5.5 等 AI 编程助手的时间点吻合。 这为 AI 辅助编程带来的生产力提升提供了具体数据支持，生动展示了 AI 编程助手如何加速开源项目开发。 最大峰值显示 2026 年单周新增代码 37,022 行，删除 9,528 行，远超自 2018 年项目启动以来的任何活动。这一模式与 Opus 4.8、GPT-5.5、Fable 5 和 GPT-5.6 Sol 的发布相关。
+
+rss · Simon Willison · 7月13日 21:45
+
+**背景**: Datasette 是 Simon Willison 创建的一款开源工具，用于探索和发布结构化数据。GitHub 的代码频率图可视化展示了仓库中每周的代码新增和删除量。Claude Opus 4.5 和 GPT-5 系列等 AI 编程助手是能够自主编写和修改代码的高级大语言模型。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://cursor.com/">Cursor: AI coding agent</a></li>
+<li><a href="https://kie.ai/claude-opus-4-5">Affordable Claude Opus 4 . 5 API – Claude API for Coding &amp; Agents</a></li>
+
+</ul>
+</details>
+
+**标签**: `#datasette`, `#AI coding agents`, `#productivity`, `#GitHub`, `#open source`
+
+---
+
+<a id="item-19"></a>
+## [Codex 用户数 6 个月增长 10 倍至 700 万，超越 Claude Code？](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months) ⭐️ 7.0/10
+
+OpenAI 的编程代理 Codex 在过去六个月内用户数增长了 10 倍以上，达到 700 万用户，仅在过去一天内就增加了 100 万，引发了与 Anthropic 的 Claude Code 的对比。 这一快速增长表明 AI 编程助手正在成为主流，Codex 的增长可能表明它正在超越像 Claude Code 这样的竞争对手，而后者尚未公布类似指标。 Codex 是 OpenAI 的代理型编码工具，能够编写、审查和发布代码，而 Anthropic 的 Claude Code 是一个类似的工具，在终端中运行。文章提到 Claude Code 报告‘一片寂静’，暗示其未披露使用数据。
+
+rss · Latent Space · 7月14日 01:22
+
+**背景**: Codex 和 Claude Code 都是 AI 驱动的编程助手，帮助开发者自动完成代码生成、调试和重构等任务。Codex 集成在 OpenAI 的 ChatGPT 和 API 中，而 Claude Code 作为终端中的代理工具运行。两者都旨在通过理解代码库并执行命令来提高开发者的生产力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://graphify.net/ai-coding-tools/codex/">OpenAI Codex Review: App, CLI, Cloud, Pricing and Use... | Graphify</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI coding assistants`, `#Codex`, `#Claude Code`, `#usage metrics`, `#market analysis`
+
+---
+
+<a id="item-20"></a>
+## [GPUHedge 将冷启动 p95 延迟从 117 秒降至 30 秒](https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/) ⭐️ 7.0/10
+
+GPUHedge 是一个新的开源工具，它利用投机执行在多个无服务器 GPU 提供商之间对冲请求，在基准测试中将 p95 冷启动延迟从 117 秒降低到 30 秒。 这解决了无服务器 GPU 上 AI 推理的一个关键痛点，使这些平台更适合延迟敏感的应用，如实时聊天机器人或视频处理。 该工具监控主提供商上的作业生命周期，并在请求超过阈值（例如 10 秒）时有条件地启动备份；失败的作业通过提供商的 API 取消。基准测试使用了 RunPod→Cerebrium 对冲，将超过 60 秒的请求从 11/36 降至 0/36。
+
+reddit · r/MachineLearning · /u/Putrid\_Construction3 · 7月13日 19:20
+
+**背景**: GPU 冷启动是指无服务器 GPU 部署从零扩展到就绪时的延迟，通常为 8 到 45 秒。投机执行是一种提前启动额外任务以缓解掉队者的技术，常用于分布式计算和处理器设计。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Speculative_execution">Speculative execution - Wikipedia</a></li>
+<li><a href="https://promtable.com/glossary/gpu-cold-start">GPU cold start — Definition, when to use, and mistakes | Promtable</a></li>
 <li><a href="https://www.spheron.network/blog/gpu-cold-start-llm-inference-2026/">GPU Cold Start on Serverless LLM Inference: 4 Fixes... | Spheron Blog</a></li>
 
 </ul>
 </details>
 
-**标签**: `#serverless GPU`, `#cold start`, `#latency`, `#hedging`, `#open-source`
+**标签**: `#serverless GPU`, `#cold start`, `#speculative execution`, `#latency`, `#open-source`
 
 ---
 
-<a id="item-16"></a>
-## [开源工具按个人研究兴趣筛选 arXiv 论文](https://www.reddit.com/r/MachineLearning/comments/1uvcdf7/hundreds_of_papers_hit_arxiv_every_day_and_maybe/) ⭐️ 7.0/10
+<a id="item-21"></a>
+## [开源工具 Research Radar 每日筛选 arXiv 论文](https://www.reddit.com/r/MachineLearning/comments/1uvcdf7/hundreds_of_papers_hit_arxiv_every_day_and_maybe/) ⭐️ 7.0/10
 
-一款名为 Research Radar 的新型开源工具每天自动对 arXiv 论文进行评分和摘要，依据研究者自定义的 Markdown 文件中的兴趣描述。 该工具通过提供个性化的每日最相关出版物摘要，解决了研究者普遍面临的信息过载问题，节省了手动浏览的大量时间。 该工具采用两阶段评分流程：廉价模型对摘要进行初步评分，强模型对高分论文进行深度阅读。它支持多种后端，包括通过 Ollama 运行的本地模型和商业 API，且代码不针对特定领域。
+一位用户构建并开源了 Research Radar，这是一个日常定时任务，能够获取 arXiv 论文，根据个人研究兴趣对摘要进行评分，并深度阅读排名靠前的论文以生成摘要和见解。 该工具解决了研究人员花费大量时间浏览无关论文的常见痛点，其设计是领域无关和模型无关的，使其能够适用于任何研究领域。 该流程使用廉价模型对摘要进行评分，并使用强模型深度阅读排名前 5-10 的论文，成本在仓库中进行了基准测试。它支持多种后端，包括通过 Ollama/vLLM 运行的本地模型。
 
 reddit · r/MachineLearning · /u/usedtobreath · 7月13日 13:59
 
-**背景**: arXiv 是一个预印本仓库，研究者每天上传大量新论文，导致难以跟上进展。许多研究者花费大量时间手动浏览列表，或依赖可能不符合其特定兴趣的流行新闻通讯。Research Radar 通过使用大型语言模型根据个人兴趣档案对相关性进行评分，实现了自动化。
+**背景**: arXiv 是一个预印本仓库，研究人员每天上传论文，常常导致信息过载。研究人员通常通过浏览标题和摘要来查找相关工作，但这很耗时。Research Radar 通过基于用户定义的兴趣文件对论文进行评分来自动化这一过程。
 
-**标签**: `#arxiv`, `#tool`, `#open-source`, `#research`, `#paper-filtering`
+**标签**: `#arxiv`, `#research tool`, `#machine learning`, `#nlp`, `#open source`
 
 ---
