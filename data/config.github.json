@@ -42,20 +42,20 @@
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 30,
-      "min_score": 120
+      "fetch_top_stories": 20,
+      "min_score": 150
     },
     "rss": [
       {
         "name": "GitHub Trending - Daily All",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "github-trending"
       },
       {
         "name": "GitHub Trending - Daily Python",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
-        "enabled": true,
+        "enabled": false,
         "category": "github-trending"
       },
       {
@@ -83,9 +83,39 @@
         "category": "ai-lab"
       },
       {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+        "enabled": true,
+        "category": "ai-lab"
+      },
+      {
         "name": "Import AI (Jack Clark)",
         "url": "https://importai.substack.com/feed",
         "enabled": true,
+        "category": "ai-newsletter"
+      },
+      {
+        "name": "Interconnects (Nathan Lambert)",
+        "url": "https://www.interconnects.ai/feed",
+        "enabled": true,
+        "category": "ai-newsletter"
+      },
+      {
+        "name": "Latent Space",
+        "url": "https://www.latent.space/feed",
+        "enabled": true,
+        "category": "ai-newsletter"
+      },
+      {
+        "name": "Ahead of AI (Sebastian Raschka)",
+        "url": "https://magazine.sebastianraschka.com/feed",
+        "enabled": false,
+        "category": "ai-newsletter"
+      },
+      {
+        "name": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/feed",
+        "enabled": false,
         "category": "ai-newsletter"
       },
       {
@@ -97,20 +127,74 @@
       {
         "name": "机器之心",
         "url": "https://www.jiqizhixin.com/rss",
-        "enabled": true,
+        "enabled": false,
         "category": "ai-cn"
       },
       {
         "name": "量子位",
         "url": "https://www.qbitai.com/feed",
-        "enabled": true,
+        "enabled": false,
         "category": "ai-cn"
+      },
+      {
+        "name": "虎嗅",
+        "url": "https://rss.huxiu.com",
+        "enabled": true,
+        "category": "tech-cn"
+      },
+      {
+        "name": "阮一峰的网络日志",
+        "url": "http://www.ruanyifeng.com/blog/atom.xml",
+        "enabled": true,
+        "category": "tech-cn"
+      },
+      {
+        "name": "开源中国",
+        "url": "https://www.oschina.net/news/rss",
+        "enabled": false,
+        "category": "tech-cn"
+      },
+      {
+        "name": "V2EX",
+        "url": "https://www.v2ex.com/index.xml",
+        "enabled": false,
+        "category": "tech-cn"
+      },
+      {
+        "name": "爱范儿",
+        "url": "https://www.ifanr.com/feed",
+        "enabled": true,
+        "category": "tech-cn"
+      },
+      {
+        "name": "InfoQ 中文",
+        "url": "https://www.infoq.cn/feed",
+        "enabled": true,
+        "category": "tech-cn"
       },
       {
         "name": "36氪",
         "url": "https://36kr.com/feed",
         "enabled": true,
         "category": "tech-cn"
+      },
+      {
+        "name": "Techmeme",
+        "url": "https://www.techmeme.com/feed.xml",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "GitHub Blog",
+        "url": "https://github.blog/feed/",
+        "enabled": false,
+        "category": "tech"
+      },
+      {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/feed",
+        "enabled": false,
+        "category": "tech"
       },
       {
         "name": "TechCrunch",
@@ -169,17 +253,25 @@
           "time_filter": "day",
           "fetch_limit": 8,
           "min_score": 100
+        },
+        {
+          "subreddit": "aivideo",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 8,
+          "min_score": 20
         }
       ],
       "users": [],
       "fetch_comments": 10
     },
     "ossinsight": {
-      "enabled": false,
+      "enabled": true,
       "period": "past_24_hours",
       "languages": ["All", "Python", "TypeScript"],
       "keywords": [],
-      "min_stars": 50,
+      "min_stars": 0,
       "max_items": 20,
       "category": "github-trending"
     }
