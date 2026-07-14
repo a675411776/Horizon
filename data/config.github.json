@@ -9,8 +9,7 @@
     "max_tokens": 8192,
     "throttle_sec": 1,
     "languages": [
-      "zh",
-      "en"
+      "zh"
     ],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
@@ -24,52 +23,124 @@
       },
       {
         "type": "repo_releases",
-        "owner": "vllm-project",
-        "repo": "vllm",
+        "owner": "comfyanonymous",
+        "repo": "ComfyUI",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "sgl-project",
-        "repo": "sglang",
+        "owner": "langgenius",
+        "repo": "dify",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "triton-lang",
-        "repo": "triton",
+        "owner": "ollama",
+        "repo": "ollama",
         "enabled": true
       }
     ],
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
-      "min_score": 150
+      "min_score": 120
     },
     "rss": [
       {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": "ai-tools"
-      },
-      {
-        "name": "GitHub Trending - Daily",
+        "name": "GitHub Trending - Daily All",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
         "category": "github-trending"
       },
       {
-        "name": "Semianalysis",
-        "url": "https://newsletter.semianalysis.com/feed",
+        "name": "GitHub Trending - Daily Python",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
         "enabled": true,
-        "category": "semiconductors"
+        "category": "github-trending"
       },
       {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
         "enabled": true,
-        "category": "linux-kernel"
+        "category": "ai"
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "ai"
+      },
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/rss.xml",
+        "enabled": true,
+        "category": "ai-lab"
+      },
+      {
+        "name": "Google DeepMind Blog",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "enabled": true,
+        "category": "ai-lab"
+      },
+      {
+        "name": "Import AI (Jack Clark)",
+        "url": "https://importai.substack.com/feed",
+        "enabled": true,
+        "category": "ai-newsletter"
+      },
+      {
+        "name": "SemiAnalysis",
+        "url": "https://newsletter.semianalysis.com/feed",
+        "enabled": true,
+        "category": "ai-infra"
+      },
+      {
+        "name": "机器之心",
+        "url": "https://www.jiqizhixin.com/rss",
+        "enabled": true,
+        "category": "ai-cn"
+      },
+      {
+        "name": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "enabled": true,
+        "category": "ai-cn"
+      },
+      {
+        "name": "36氪",
+        "url": "https://36kr.com/feed",
+        "enabled": true,
+        "category": "tech-cn"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/feed/",
+        "enabled": true,
+        "category": "tech"
+      },
+      {
+        "name": "Ars Technica",
+        "url": "https://feeds.arstechnica.com/arstechnica/index",
+        "enabled": false,
+        "category": "tech"
+      },
+      {
+        "name": "少数派",
+        "url": "https://sspai.com/feed",
+        "enabled": false,
+        "category": "tech-cn"
       }
     ],
     "reddit": {
@@ -90,25 +161,38 @@
           "time_filter": "day",
           "fetch_limit": 10,
           "min_score": 60
+        },
+        {
+          "subreddit": "StableDiffusion",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 8,
+          "min_score": 100
         }
       ],
       "users": [],
       "fetch_comments": 10
     },
-    "telegram": {
-      "enabled": true,
-      "channels": [
-        {
-          "channel": "zaihuapd",
-          "enabled": true,
-          "fetch_limit": 20
-        }
-      ]
+    "ossinsight": {
+      "enabled": false,
+      "period": "past_24_hours",
+      "languages": ["All", "Python", "TypeScript"],
+      "keywords": [],
+      "min_stars": 50,
+      "max_items": 20,
+      "category": "github-trending"
     }
   },
   "filtering": {
-    "ai_score_threshold": 8.0,
-    "time_window_hours": 24
+    "ai_score_threshold": 7.0,
+    "time_window_hours": 24,
+    "category_groups": {
+      "GitHub 热门": ["github-trending"],
+      "AI 前沿": ["ai", "ai-lab", "ai-newsletter", "ai-infra", "ai-cn"],
+      "科技互联网": ["tech", "tech-cn"]
+    },
+    "default_group": "其他"
   },
   "webhook": {
     "enabled": true,
